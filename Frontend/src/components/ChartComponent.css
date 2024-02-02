@@ -1,0 +1,95 @@
+/* Add this CSS to your existing ChartComponent.css file or create a new one */
+
+.container {
+  display: flex;
+}
+
+
+
+
+
+.content {
+  display: flex;
+  flex-grow: 1;
+}
+
+.left-side {
+  flex: 1;
+}
+
+.right-side {
+  flex: 2;
+}
+
+.create-form-container {
+  margin-top: 40px;
+}
+
+/* Container for the entire layout */
+.container {
+  display: flex;
+}
+
+/* Style for the left side (table) */
+.left-side {
+  flex: 0 0 25%; /* 30% width, no shrinking or growing */
+}
+
+/* Style for the right side (scatter chart) */
+.right-side {
+  flex: 1; /* Take up available space */
+  margin-left: 20px; /* Adjust margin as needed */
+}
+
+/* Add the existing styles */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tbody {
+  cursor: pointer;
+}
+
+tbody tr {
+  transition: background-color 0.3s;
+}
+
+tbody tr:hover {
+  background-color: #f5f5f5; /* Add your preferred hover background color */
+}
+
+tbody td:first-child {
+  font-weight: bold;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.chart-buttons-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+/* ... (Add the rest of your existing styles) */
+/* Your existing styles... */
+
+.scatter-chart {
+  width: 700px; /* Adjust the width as needed */
+  height: 300px; /* Adjust the height as needed */
+  margin-top: 20px;
+  padding: 20px;
+}
+
+/* Your existing styles... */
